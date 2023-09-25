@@ -8,17 +8,17 @@ import models.Students;
 
 @Getter
 @Setter
-@NoArgsConstructor
 @FieldDefaults(level = AccessLevel.PRIVATE)
 
 public class Teacher extends Person {String expertise;
 
+    public Teacher() {
+    }
 
     public Teacher(String name, String surname, Integer age, Double salary, String finCode, String expertise) {
         super(name, surname, age, salary, finCode);
         this.expertise = expertise;
     }
-
 
 
 
