@@ -10,7 +10,7 @@ public class DirectorOperation {
 
     public static DirectorInter directorInter = new DirectorImpl();
 
-    public void getDirectorByExpertiseOperation() {
+    public void getDirectorByExpertiseOperation() { //operation
         Scanner scanner = new Scanner(System.in);
         System.out.println("Directorun ixtisasini daxil et: ");
         String Expertise = scanner.nextLine();
